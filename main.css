@@ -1,0 +1,141 @@
+/* License: none (public domain) */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* .....reset.... */
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    
+}
+nav {
+    /* margin-top: 5px; */
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(32,32,32);
+    margin: 0;
+    padding: 2px;
+    align-items: center;
+    position: fixed;
+}
+#menu {
+    /* background-color: black; */
+    cursor: pointer;
+}
+#youtube {
+    height: 20px;
+    background-color: black;
+    margin-left:20px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-stretch: 5%;
+    color: blanchedalmond;
+    /* background-color: black; */
+    cursor: pointer;
+}
+
+input {
+    margin-left: 170px;
+    width: 650px;
+    height: 30px;
+    background-color: rgb(19,19,18);
+}
+.search-btn {
+    background-color: rgb(54, 52, 52);
+    height: 30px;
+    
+    width: 50px;
+    cursor: pointer;
+}
+.mic-btn {
+    margin-left: 10px;
+    border-radius: 40%;
+    background-color:rgb(20, 20, 20);
+    width: fit-content;
+    height: 30px;
+    cursor: pointer;
+}
+.video-btn {
+    margin-left: 100px;
+    height: 30px;
+    /* background-color: black; */
+    cursor: pointer;
+}
+.apps-btn {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.notification-btn {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.account-icon {
+    margin-left: 20px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+iframe {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.main-video {
+    /* display: flex; */
+    float: left;
+    
+   
+}
+.aside {
+    float: right;
+    background-color: aquamarine;
+    height: fit-content;
+}
