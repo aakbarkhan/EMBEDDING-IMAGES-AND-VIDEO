@@ -124,18 +124,90 @@ input {
     cursor: pointer;
     margin-right: 40px;
 }
-iframe {
-    margin-top: 70px;
-    margin-left: 30px;
-}
+
 .main-video {
-    /* display: flex; */
-    float: left;
-    
-   
+    display: grid;
+    width: max-content;
+    grid-template-columns: 800px 550px;
+    grid-template-rows: auto;
+    grid-template-areas:
+     " video  sidebar";
+     overflow: hidden;
+     background-color: rgb(25,25,24);
+}
+#youtube-video {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.side-section {
+    background-color: rgb(25,25,24);
 }
 .aside {
+    width: 600px;
+    /* background-color: aquamarine; */
+    margin-top: 70px;
+    overflow: hidden;
+    /* background-color: rgb(25,25,24); */
+    
+    
+    
+}
+.chat {
+    color: azure;
+    text-align: center;
+    background-color: rgb(54, 52, 52);
+    height: 20px;
+    cursor: pointer;
+    padding-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    margin-top: 70px;
+    
+    
+}
+.other-title {
+    margin-top: 15px;
+    background-color: blanchedalmond;
+
+}
+span{
+    margin-right: 40px;
+    font-size: 15px;
+    border-radius: 3px;
+    color: cornsilk;
+    background-color: rgb(54, 52, 52);
+    
+    
+}
+.tag-name {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+#video-aside {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#video-aside-1 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.discription {
+    margin-top: -100px;
     float: right;
-    background-color: aquamarine;
-    height: fit-content;
+    margin-left: 274px;
+    color: cornsilk;
+}
+.likes-dislikes {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.discription-name {
+    float: right;
+    color: cornsilk;
+}
+.subscriber {
+    display: flex;
+    
 }
